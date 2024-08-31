@@ -6,7 +6,7 @@
         "gas": "1000000",
         "gasAdjustment": 1.0,
         "nodeRpc": "rpc template",
-        "maxRetries": 25,
+        "maxRetries": 50,
         "delay": 1,
         "submitTx": false
     },
