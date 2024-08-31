@@ -15,7 +15,7 @@ def generate_inference(token):
         return Response(json.dumps({"error": error_msg}), status=400, mimetype='application/json')
 
     try:
-        random_value = random.uniform(70, 80)
+        random_value = random.uniform(50, 100)
         inference = round(random_value, 2)
         return Response(str(inference), status=200)
     except Exception as e:
